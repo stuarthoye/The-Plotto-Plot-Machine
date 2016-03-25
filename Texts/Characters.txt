@@ -1,0 +1,115 @@
+A. male protagonist 
+
+B. female protagonist 
+
+A-2. male friend of A 
+
+B-2. female friend of B 
+
+A-3. male rival or enemy of A 
+
+B-3. female rival or enemy of B 
+
+A-4. male stranger 
+
+B-4. female stranger 
+
+A-5. male criminal 
+
+B-5. female criminal 
+
+A-6. male officer of the law 
+
+B-6. female officer of the law 
+
+A-7. male inferior, employee 
+
+B-7. female inferior, employee 
+
+A-8. male utility symbol 
+
+B-8. female utility symbol 
+
+A-9. male superior, employer, one in authority 
+
+B-9. female superior, employer, one in authority 
+
+F-A. father of A 
+
+F-B. father of B 
+
+M-A, mother of A 
+
+M-B. mother of B 
+
+BR-A, brother of A 
+
+BR-B. brother of B 
+
+SR-A. sister of A 
+
+SR-B, sister of B 
+
+SN-A son of A 
+
+SN-B. son of B 
+
+D-A. daughter of A 
+
+D-B, daughter of B 
+
+U-A, uncle of A 
+
+U-B, uncle of B 
+
+AU-A, aunt of A 
+
+AU-B, aunt of B 
+
+CN-A. male cousin of A 
+
+CN-B, female cousin of B 
+
+NW-A, nephew of A 
+
+NW-B, nephew of B 
+
+NC-A, niece of A 
+
+NC-B, niece of B 
+
+GF-A, grandfather of A 
+
+GF-B. grandfather of B 
+
+GM-A, grandmother of A 
+
+GM-B, grandmother of B 
+
+SF-A, stepfather of A 
+
+SF-B, stepfather of B 
+
+SM-A, stepmother of A 
+
+SM-B stepmother of B 
+
+GCH-A. grandchild of A 
+
+GCH-B. grandchild of B 
+
+CH. a child 
+
+AX. a mysterious male person. or one of unusual character 
+
+BX. a mysterious female person or one of unusual character 
+
+X, an inanimate object, an object of mystery, an uncertain quantity 
+
+Note: BR-A, BR-B, SR-A, SR-B, SN-A, SN-B, D-A. D-B, CN-A and CN-B may on occasion be merely BR, SR, SN. D. and CN. 
+
+Where necessary to indicate a male friend of B. or a female friend of A, the symbols aB-2, bA-2 may be used.
+
+Likewise, bCN-A, female cousin of A; aCN-B, male cousin of B, bGCH-A, female grandchild of A, aCH. male child, etc. 
+
+X added to any character gives to the character a suggestion of mystery. 
