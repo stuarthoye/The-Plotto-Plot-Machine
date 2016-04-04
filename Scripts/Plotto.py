@@ -16,7 +16,7 @@ class Plotto:
         
     def display(self):
         print("==============================================================================")
-        print("PLOTTO:\n")
+        print("PLOTTO:")
         print("==============================================================================")
         self.conflicts.display()
         self.masterplot.display()

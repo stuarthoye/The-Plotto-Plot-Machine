@@ -1,7 +1,8 @@
-# The-Plotto-Plot-Machine
-A program to automate the algorithm described in William Wallace Cook's Plotto, The Masterbook of All Plots.
+# The Plotto Plot Machine
 
-This program is written in Python, for ease & legibility.
+A program to automate the algorithm described in <a href="https://openlibrary.org/works/OL16087095W/Plotto" target="_blank">William Wallace Cook's Plotto, The Masterbook of All Plots</a>.
+
+This program is written in Python for ease & legibility.
 
 This program relies upon the text of Plotto to generate story structure outlines.
 
