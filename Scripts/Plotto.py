@@ -15,7 +15,6 @@ class Plotto:
         self.masterplot.wildCombination()
         
     def display(self):
-        print("\n\n\n\n\n\n\n\n\n\n")
         print("==============================================================================")
         print("PLOTTO:\n")
         print("==============================================================================")
