@@ -20,12 +20,20 @@ def main():
 
     masterplot = plotto.masterplot.getPlot()
     plot_checked = grammar_check.correct(masterplot, tool.check(masterplot))
-    print capitalize(plot_checked.lower())
+    
+    print capitalize(plot_checked.lower()) + '\n'
 
     conflict = plotto.conflicts.getConflict()
     characters = plotto.characters.getCharacters()
 
-    print conflict, characters[0]
+    print conflict + '\n'
+    print 'Characters: '
+    
+    for char in characters:
+    	print char.name + ", " + char.role
+
+    print '\n'
+
     # plotto.display()
 
 main()
