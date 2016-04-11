@@ -90,7 +90,7 @@ class Masterplot:
                 "Meets any fate, good or evil."]
     
     def __init__(self):
-        pass
+        self.plot = ""
 
     def setPlot(self):
         i = random.randrange(1, 15)

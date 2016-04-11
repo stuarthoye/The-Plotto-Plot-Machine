@@ -2,8 +2,10 @@ import random
 
 class Conflicts:
     def __init__(self):
-        self.grandScope = ["Love & Courtship", "Married Life", "Enterprise"]
-        self.Conflicts = { "Love & Courtship": [   "Love's beginnings", 
+        self.conflict = "";
+        self.grandScope = "";
+        self.grandScopes = ["Love & Courtship", "Married Life", "Enterprise"]
+        self.conflicts = { "Love & Courtship": [   "Love's beginnings", 
                                                    "Love's misadventures",
                                                    "The Marriage Proposal",
                                                    "Love's rejection",
@@ -24,14 +26,38 @@ class Conflicts:
                                                    "Revenge"]
                          }
     
-    def setConflict(self):
-        i = random.randrange(len(self.grandScope))
-        gs = self.grandScope[i]
-        j = random.randrange(len(self.Conflicts[gs]))
-        self.conflict = gs + "; " + self.Conflicts[gs][j]
+    def wildCombination(self):
+        i = random.randrange(len(self.grandScopes))
+        gs = self.grandScopes[i]
+        j = random.randrange(len(self.conflicts[gs]))
+        self.grandScope = gs
+        self.conflict = self.conflicts[gs][j]
     
+    def selectGrandScope(self, selection):
+        assert(selection in range(len(self.grandScopes)))
+        assert(self.conflict == "")
+        self.grandScope += self.grandScopes[selection]
+    
+    def selectConflict(self, selection):
+        assert(self.grandScope in self.conflicts)
+        assert(selection in range(len(self.conflicts[self.grandScope])))
+        self.conflict = self.conflicts[self.grandScope][selection]
+    
+    def getGrandScopes(self):
+        return self.grandScopes
+
+    def getGrandScope(self):
+        return self.grandScope
+
+    def getConflicts(self):
+        return self.conflicts
+
+    def getConflicts(self, grandScope):
+        assert(grandScope in self.conflicts)
+        return self.conflicts[grandScope]
+
     def getConflict(self):
         return self.conflict
 
     def display(self):
-        print(self.conflict + ".\n")
+        print(self.grandScope + "; " + self.conflict + ".\n")
