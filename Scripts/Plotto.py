@@ -16,6 +16,7 @@ class Plotto:
         self.conflicts.wildCombination()
         self.characters.wildCombination()
         self.masterplot.wildCombination()
+<<<<<<< HEAD
 
     def selectFrom(self, selections):
         selection = ""
@@ -35,8 +36,12 @@ class Plotto:
 
     def menu(self):
         self.clearScreen()
+=======
+        
+    def display(self):
+>>>>>>> 4718701b07f2fa7ead9ed679b9593417cbf5fd38
         print("==============================================================================")
-        print("PLOTTO:\n")
+        print("PLOTTO:")
         print("==============================================================================")
         selection = self.selectFrom(self.options)
         if (selection == 0):
